@@ -6,7 +6,7 @@
 /*   By: event <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 18:07:54 by event             #+#    #+#             */
-/*   Updated: 2023/07/09 19:24:03 by event            ###   ########.fr       */
+/*   Updated: 2023/07/09 23:01:08 by event            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char	*ft_strstr(char *str, char *to_find)
 		}
 		i++;
 	}
-	return (NULL);
+	return (0);
 }
 
 /*int	main(int argc, char *argv[])

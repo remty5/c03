@@ -6,7 +6,7 @@
 /*   By: event <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 16:46:03 by event             #+#    #+#             */
-/*   Updated: 2023/07/09 20:48:13 by event            ###   ########.fr       */
+/*   Updated: 2023/07/09 23:08:23 by event            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	unsigned int	j;
 
 	j = 0;
-	while (dest[j])
+	while (size > 0 && dest[j])
 		j++;
 	i = 0;
 	if (j < size)
